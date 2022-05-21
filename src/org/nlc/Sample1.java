@@ -11,13 +11,15 @@ public class Sample1 extends Note {
 		this("ganesh",986776779l);
 		System.out.println("int parameter");
 		System.out.println(id);
-		
+		System.out.println(id);
 		
 		
 	}
 	public Sample1(String name,long phone) {
 		super();
 		System.out.println("string,long parameter");
+		System.out.println(name);
+		System.out.println(phone);
 		System.out.println(name);
 		System.out.println(phone);
 	}
